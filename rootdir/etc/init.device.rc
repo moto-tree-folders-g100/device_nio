@@ -33,3 +33,6 @@ on boot
 on property:sys.boot_completed=1
     stop boot_lc_main
     stop boot_dmesg
+    # Restrict permissions to socket file
+    # to hide Magisk & co.
+    chmod 440 /proc/net/unix
