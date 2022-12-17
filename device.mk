@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
 # Init
 PRODUCT_PACKAGES += \
     init.device.rc \
-    init.recovery.device.rc
 
 # NFC
 PRODUCT_PACKAGES += \
